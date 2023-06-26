@@ -1,5 +1,8 @@
 
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Home from './comonent/Home/Home'
+import Navbar from './comonent/Navbar/Navbar'
 
 function App() {
 
@@ -7,9 +10,11 @@ function App() {
   return (
     
       <div>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+        <Navbar></Navbar>
+          <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/aboutus" element={<AboutUs />} /> */}
+      </Routes>
       </div>
       
   )
