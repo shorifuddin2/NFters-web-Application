@@ -2,23 +2,87 @@
     {
         "id":1,
         "name": "Shorif Uddin",
-        "photo": "../src/assets/banner1.png"
+        "photo": "../src/assets/photo1.png"
 },
     {
         "id":2,
         "name": "Shorif Uddin",
-        "photo": "../src/assets/banner2.png"
+        "photo": "../src/assets/photo2.png"
     },
 
     {
         "id":3,
         "name": "Shorif Uddin",
-        "photo":"../src/assets/banner3.png"
+        "photo":"../src/assets/photo3.png"
     },
 
     {
         "id":4,
         "name": "Shorif Uddin",
-        "photo":"../src/assets/banner3.png"
+        "photo":"../src/assets/photo4.png"
+    },
+    {
+        "id":5,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo4.png"
+    },
+    {
+        "id":6,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo3.png"
+    },
+    {
+        "id":7,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo1.png"
+    },
+    {
+        "id":8,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo2.png"
+    },
+    {
+        "id":9,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo1.png"
+    },
+    {
+        "id":10,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo4.png"
+    },
+    {
+        "id":11,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo2.png"
+    },
+    {
+        "id":12,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo3.png"
+    },
+
+    {
+        "id":13,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo3.png"
+    },
+
+    {
+        "id":14,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo2.png"
+    },
+
+    {
+        "id":15,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo1.png"
+    },
+
+    {
+        "id":16,
+        "name": "Shorif Uddin",
+        "photo":"../src/assets/photo4.png"
     }
 ]

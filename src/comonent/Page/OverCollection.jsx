@@ -1,5 +1,10 @@
 import Pic1 from "../../assets/pic1.png"
 import Pic2 from "../../assets/pic2.png"
+import Pic3 from "../../assets/pic3.png"
+import Pic4 from "../../assets/pic4.png"
+import IconMan from "../../assets/iconMan.png"
+import Frame from "../../assets/Frame 6.png"
+
 
 const OverCollection = () => {
     return (
@@ -23,33 +28,46 @@ const OverCollection = () => {
                     </div>
                 </div>
                 </div>
-                <div >
 
-                <div className="grid grid-cols-2 bg-base-100 my-2 w-80 mx-auto ">
+                <div className="w-52 h-auto">
+
+                <div className="grid grid-cols-2 bg-base-100  w-80 h-32 mx-auto ">
                     <figure>
                         <img className="w-[100px] h-auto" src={Pic2} alt="Album"/>   
                     </figure>
                     <div className="">
                         <h2 className="">The Futr Abstr</h2>
-                        <button className="btn btn-primary">Place a bid</button>
+                        <div className="flex">
+                          <img className="m-2" src={IconMan} alt="" />
+                          <img className="m-2" src={Frame} alt="" />
+                        </div>
+                        <button className="btn btn-primary rounded-full">Place a bid</button>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 bg-base-100 my-2 w-80 mx-auto">
+                <div className="grid grid-cols-2 bg-base-100  w-80 h-32 mx-auto">
                     <figure>
-                        <img className="w-[100px] h-auto" src={Pic2} alt="Album"/>   
+                        <img className="w-[100px] h-auto" src={Pic3} alt="Album"/>   
                     </figure>
                     <div className="">
                         <h2 className="">The Futr Abstr</h2>
-                        <button className="btn btn-primary">Place a bid</button>
+                        <div className="flex">
+                          <img className="m-2" src={IconMan} alt="" />
+                          <img className="m-2" src={Frame} alt="" />
+                        </div>
+                        <button className="btn btn-primary rounded-full">Place a bid</button>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 bg-base-100 my-2 w-80 mx-auto">
+                <div className="grid grid-cols-2 bg-base-100 w-80 h-32 mx-auto">
                     <figure>
-                        <img className="w-[100px] h-auto" src={Pic2} alt="Album"/>   
+                        <img className="w-[100px] h-auto" src={Pic4} alt="Album"/>   
                     </figure>
                     <div className="">
                         <h2 className="">The Futr Abstr</h2>
-                        <button className="btn btn-primary">Place a bid</button>
+                        <div className="flex">
+                          <img className="m-2" src={IconMan} alt="" />
+                          <img className="m-2" src={Frame} alt="" />
+                        </div>
+                        <button className="btn btn-primary rounded-full">Place a bid</button>
                     </div>
                 </div>
 
@@ -70,12 +88,12 @@ const OverCollection = () => {
     <tbody>
       {/* row 1 */}
       <tr>
-      <th>1</th>
+      <th className="w-5 h-5">1</th>
         <td>
           <div className="flex items-center space-x-3">
             <div className="avatar">
               <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
+                <img src={IconMan} alt="Avatar Tailwind CSS Component" />
               </div>
             </div>
           </div>
@@ -84,7 +102,7 @@ const OverCollection = () => {
           Zemlak, Daniel and Leannon
         </td>
             <div>
-              <div className="font-bold">Hart Hagerty</div>
+              
               <div className="text-sm opacity-50">United States</div>
             </div>
     

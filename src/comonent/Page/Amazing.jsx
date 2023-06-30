@@ -3,7 +3,7 @@
 const AmazingPart = () => {
     return (
         <div className="bg-slate-100">
-            <div className="grid  lg:grid-cols-3 gap-3 lg:my-5 lg:mx-20 ">
+            <div className="grid  lg:grid-cols-3 gap-3 lg:my-5 lg:mx-20 py-10">
                 <div className="p-8 min-w-full ">
                     <h1 className="text-2xl uppercase w-96 font-bold my-8  mx-8">The amazing NFT art <br/>of the world here</h1>
                 </div>
