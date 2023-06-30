@@ -109,6 +109,78 @@ const OverCollection = () => {
       </tr>
     
     </tbody>
+    <tbody>
+      {/* row 1 */}
+      <tr>
+      <th className="w-5 h-5">1</th>
+        <td>
+          <div className="flex items-center space-x-3">
+            <div className="avatar">
+              <div className="mask mask-squircle w-12 h-12">
+                <img src={IconMan} alt="Avatar Tailwind CSS Component" />
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          Zemlak, Daniel and Leannon
+        </td>
+            <div>
+              
+              <div className="text-sm opacity-50">United States</div>
+            </div>
+    
+      </tr>
+    
+    </tbody>
+    <tbody>
+      {/* row 1 */}
+      <tr>
+      <th className="w-5 h-5">2</th>
+        <td>
+          <div className="flex items-center space-x-3">
+            <div className="avatar">
+              <div className="mask mask-squircle w-12 h-12">
+                <img src={IconMan} alt="Avatar Tailwind CSS Component" />
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          Zemlak, Daniel and Leannon
+        </td>
+            <div>
+              
+              <div className="text-sm opacity-50">United States</div>
+            </div>
+    
+      </tr>
+    
+    </tbody>
+    <tbody>
+      {/* row 1 */}
+      <tr>
+      <th className="w-5 h-5">3</th>
+        <td>
+          <div className="flex items-center space-x-3">
+            <div className="avatar">
+              <div className="mask mask-squircle w-12 h-12">
+                <img src={IconMan} alt="Avatar Tailwind CSS Component" />
+              </div>
+            </div>
+          </div>
+        </td>
+        <td>
+          Zemlak, Daniel and Leannon
+        </td>
+            <div>
+              
+              <div className="text-sm opacity-50">United States</div>
+            </div>
+    
+      </tr>
+    
+    </tbody>
   </table>
 </div>
 
